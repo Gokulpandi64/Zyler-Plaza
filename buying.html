@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy</title>
+    <link rel="icon" href="images/logo-image.png">
+    <link rel="stylesheet" href="styles/zylercheckout.css">
+</head>
+<body>
+    <header>
+        <div class="logo-header">
+            <a href="index.html">
+              <img src="images/logo-image.png" alt="" class="logo-header-img">
+              <h2 class="logo-name">Zyler plaza</h2>
+            </a>
+          </div>
+  
+          <div class="order-header">
+            <a href="orders.html">
+                <img src="images/myOrders.png" alt="" class="order-img">
+                <span class="order-name">Orders</span>
+            </a>
+        </div>
+    </header>
+    <span class="js-checkout-header" style="display: none;">0</span>
+    <main>
+        <div class="checkout-grid">
+            <div class="order-summary js-order-summary" style="display: block;"></div>
+        </div>
+        <div class="payment-summary js-payment-summary"></div>
+    </main>
+
+    <script type="module" src="scripts/checkout.js"></script>
+</body>
+</html>
